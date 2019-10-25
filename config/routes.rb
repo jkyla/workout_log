@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
- def index
- end
+ resources :workouts
+ root 'workout#index'
 end
 
